@@ -62,7 +62,7 @@ class MyApp extends StatelessWidget {  // StatelessWidgetを継承
   Widget build(BuildContext context) {  //buildメソッドでUIを作成
     return MaterialApp(  // マテリアルデザインのアプリ
         title: "My Simple App",  // アプリのタイトル
-        home: RandomWords()
+        //home: RandomWords()
     );
   }
 }
